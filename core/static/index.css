@@ -1,0 +1,129 @@
+.navbar{
+    margin: auto;
+    width: auto;
+    font-size: 125%;
+    padding: 9px;
+    justify-content: space-around;
+}
+
+.logo-text{
+    text-decoration: none;
+    color: black;
+}
+
+.side-padding{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.no-text-decor{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.spacing{
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.no-text-decor:hover{
+    color: green;
+}
+
+.upper-padding{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.col{
+    align-items: stretch;
+}
+
+.sort p {
+  position: relative;
+}
+
+.sort label {
+  position: absolute;
+  width: 150px;
+  left: 0;
+  top: Xpx /* x to align nicely with the baseline of the text in the input */
+}
+
+.sort input {
+    margin-left: 160px;
+}
+
+.search{
+    border: 1px solid #cccccc; 
+    outline:0; 
+    height:30px; 
+    width: 90%; 
+    border-radius: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.search:placeholder-shown{
+    padding-left: 9px;
+}
+
+.search:hover{
+    border: 1px solid green
+}
+
+.upper-lower-border{
+    padding: 10px;
+    border-style: solid none none none;
+    border: 1px solid black;
+}
+
+.search-container{
+    float: right;
+    font-size: 18px;
+}
+
+.close{
+    background: url('https://api.iconify.design/entypo-circle-with-cross.svg') no-repeat center center / contain;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(white, lightgreen);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html {
+    height: 100%;
+}
+
+.pill{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pill:hover{
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row a{
+    display: inline;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="static/index.css" />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/c/c8/Emoji_u1f30e.svg"
+      type="image/x-icon"
+    />
+    <link rel="image/ico" href="/static/favicons.ico" />
+    <link rel="apple-touch-icon" href="static/logo192.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="static/index.js"></script>
+    <title>Hacker Earth</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="spacing"></span>
+      <a href="/" class="logo-text">Hacker Earth</a>
+
+      <div class="search-container">
+        <form method="POST" action="/input">
+          {% csrf_token %}
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder=" Search"
+            class="search"
+          />
+        </form>
+      </div>
+    </nav>
+
+    <div class="upper-padding"></div>
+    <div class="center">
+      
+        
+    </div>
+  </body>
+</html>
